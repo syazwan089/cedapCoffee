@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8a4860d873.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Cedap Coffee- Your First Coffee Subscription</title>
+</head>
+<body class="scroll-smooth">
+
+    <div class="pb-16 md:pb-0">
+
+        <!-- Navigation -->
+        <header class="w-full fixed z-50 md:relative">
+            <nav class="bg-[#F9EDE1] border-gray-200 ">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="./assets/images/Logo.png" class="h-12" alt="Cedap Coffee Logo" />          
+            </a>
+            <button id="nav-button" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto md:px-8" id="navbar-default">
+                <ul id="menu-button" class="bg-[#F9EDE1]  flex flex-col justify-center md:flex md:flex-row items-center text-white  space-y-8 md:space-y-0 md:space-x-8">
+                    <li class="text-[#883000]  hover:text-black"><a href="#">Home</a></li>
+                    <li class="text-[#883000]  hover:text-black"><a href="#HowItWork">How It Work</a></li>
+                    <li class="text-[#883000]  hover:text-black"><a href="#">Menu</a></li>
+                    <li class="text-[#883000]  hover:text-black"><a href="#">Benefit</a></li>
+                    <li class="text-[#883000]  hover:text-black"><a href="#">Plan</a></li>
+                    <li class="text-[#883000]  hover:text-black"><a href="#">Store</a></li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+        </header>
+    </div>
+    
+    <!-- Hero Section -->
+    <div class="bg-[#F9EDE1] h-[36rem] flex items-center pl-4 lg:pl-40 space-x-8">
+
+        <!-- Left Text Section -->
+        <div class="w-full">
+            <h1 class="text-5xl text-[#883000] font-sans font-semibold">
+                The First <br> Coffee Subscription
+            </h1>
+            <p class="mt-4 text-lg text-[#4B4B4B]">
+                Subscribe now and enjoy a fresh brew every day.
+            </p>
+            <button class="mt-6 bg-[#883000] text-white px-6 py-3 rounded-full">
+                Subscribe Now
+            </button>
+        </div>
+    
+        <!-- Right Image Section -->
+        <div class="w-full max-w-4xl">
+            <div class="h-[30rem] w-full bg-cover bg-center bg-no-repeat drop-shadow-lg rounded-tl-[10rem] rounded-bl-3xl"
+                 style="background-image: url('./assets/images/bg-1.png');">
+            </div>
+        </div>
+    
+    </div>
+    
+
+
+    <!-- How It Work Section -->
+    <div id="HowItWork">
+    <div class="w-full bg-cover bg-center bg-no-repeat drop-shadow-lg p-10"
+                style="background-image: url('./assets/images/bg-1.png');">
+
+            <div class="flex justify-center items-center flex-col space-y-16">
+                
+                <h1 class="text-4xl text-white font-sans font-semibold">
+                    How It Works Section
+                </h1>
+
+                <div class="flex justify-center items-center md:flex-row md:space-x-3 flex-col md:space-y-0 space-y-4">
+
+                    <div class="bg-[#F9EDE1] drop-shadow-xl flex flex-col p-6 min-h-64 rounded-lg md:max-w-52 w-full">
+                        <h2 class="font-sans font-semibold text-2xl  text-[#883000]">1</h2>
+                        <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000]  mb-4">Choose Your 
+                            <br>Plan</h1>
+                        
+                        <p class="text-[#883000] font-sans ">
+                            Subscribe monthly 
+                            for just <span class="font-extrabold">RM 299</span> <br>
+                            ( 30% off savings).
+                        </p>
+                    </div>
+
+                    <div class="bg-[#F9EDE1] drop-shadow-xl flex flex-col p-6 rounded-lg md:max-w-52  min-h-64  w-full">
+                        <h2 class="font-sans font-semibold text-2xl  text-[#883000]">2</h2>
+                        <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-4">Redeem Your 
+                            Coffee</h1>
+                        
+                        <p class="text-[#883000] font-sans ">
+                            Get one coffee 
+                            every day from 
+                            our cafés.
+                        </p>
+                    </div>
+
+
+                    <div class="bg-[#F9EDE1] drop-shadow-xl flex flex-col p-6 rounded-lg md:max-w-52  min-h-64 w-full">
+                        <h2 class="font-sans font-semibold text-2xl  text-[#883000]">3</h2>
+                        <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-4"> 
+                            Pick Your <br>Brew</h1>
+                        
+                        <p class="text-[#883000] font-sans ">
+                            Enjoy a wide variety 
+                            of coffees including 
+                            lattes, cappuccinos, 
+                            and more.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </div>
+    </div>
+
+    <!-- Menu Drink-->
+    <div id="#menu" class="p-10 ">
+        <div class="flex items-start flex-col pl-4 mt-11 lg:pl-40 max-w-screen-md">
+            <h1 class="text-4xl text-[#883000] font-sans font-bold">
+                Choose From a Wide Range 
+                of Coffees
+            </h1>
+            <p class="mt-8 text-lg text-start text-[#883000] max-w-screen-sm">
+                Whether you crave a classic espresso or a smooth cappuccino, we have it all. 
+                Enjoy your favorites at our partner cafés.
+            </p>
+
+
+    
+        </div>
+
+        <div class="mt-20 flex justify-center items-center md:flex-row md:space-x-12 flex-col md:space-y-0 space-y-11">
+                
+            <div class="flex flex-col rounded-lg h-72 p-2 drop-shadow-lg bg-[#F9EDE1] md:min-w-48 md:max-w-52 w-full">
+                <div class="bg-blue-900 mt-[-25px] w-full h-44 rounded-md bg-cover bg-center bg-no-repeat drop-shadow-lg" style="background-image: url('./assets/images/espresso.png');">
+
+                </div>
+
+                <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-2"> 
+                    Espresso</h1>
+                
+                <p class="text-[#883000] font-sans ">
+                    For that intense coffee lover.
+                </p>
+            </div>
+
+
+            <div class="flex flex-col rounded-lg h-72 p-2 drop-shadow-lg bg-[#F9EDE1]  md:min-w-48 md:max-w-52 w-full">
+                <div class="bg-blue-900 mt-[-25px] w-full h-44 rounded-md bg-cover bg-center bg-no-repeat drop-shadow-lg" 
+                style="background-image: url('./assets/images/latte.png');">
+
+                </div>
+
+                <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-2"> 
+                    Latte</h1>
+                
+                <p class="text-[#883000] font-sans ">
+                    For that mild coffee lover.
+                </p>
+            </div>
+
+
+            <div class="flex flex-col rounded-lg h-72 p-2 drop-shadow-lg bg-[#F9EDE1]   md:min-w-48 md:max-w-52 w-full">
+                <div class="bg-blue-900 mt-[-25px] w-full h-44 rounded-md bg-cover bg-center bg-no-repeat drop-shadow-lg" 
+                style="background-image: url('./assets/images/cap.png');">
+
+                </div>
+
+                <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-2"> 
+                    Mocha</h1>
+                
+                <p class="text-[#883000] font-sans ">
+                    For that chocolate coffee lover.
+                </p>
+            </div>
+
+        </div>
+        
+
+        <div class="flex w-full justify-center items-center mt-10">
+            <p class="text-[#883000] font-sans underline underline-offset-8 under hover:text-black">
+                <a href="#">View All Menu</a>
+            </p>
+        </div>
+        
+    </div>
+
+    <!-- Why Us Section-->
+    <div id="#whyus" class="p-10 ">
+        <div class="flex items-start flex-col pl-4 mt-11 lg:pl-40 max-w-screen-md ">
+            <h1 class="text-4xl text-[#883000] font-sans font-bold">
+                Why Our Subscription is 
+                Perfect for <span class="text-black italic">You</span>
+            </h1>
+        </div>
+
+        <div class="flex flex-row justify-center mt-16 items-center sm:space-x-10 space-x-0">
+            <img class="max-w-72 sm:block hidden"  src="./assets/images/sub-bg.png" alt="">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:max-w-lg max-w-xs sm:max-w-sm">
+                <div>
+                    <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-2 sm:text-start text-center"> 
+                        30% Savings</h1>
+                    
+                    <p class="text-[#883000] font-sans sm:text-start text-center">
+                        Spend less and enjoy 
+                        more.
+                </div>
+
+                <div>
+                    <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-2 sm:text-start text-center"> 
+                        Variety of Choices</h1>
+                    
+                    <p class="text-[#883000] font-sans sm:text-start text-center">
+                        From rich espressos to 
+                        frothy lattes, pick 
+                        what you love.
+                </div>
+
+                <div>
+                    <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-2 sm:text-start text-center"> 
+                        Daily Coffee</h1>
+                    
+                    <p class="text-[#883000] font-sans sm:text-start text-center">
+                        Never miss your daily 
+                        coffee with easy 
+                        redemption
+                </div>
+
+                <div>
+                    <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-2 sm:text-start text-center"> 
+                        Local Cafés</h1>
+                    
+                    <p class="text-[#883000] font-sans sm:text-start text-center">
+                        Redeem your coffee 
+                        at cafés across
+                        Kuala Lumpur.
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- Pricing plan -->
+    <div id="pricing" class="p-10">
+        <div class="flex items-center flex-col p-4 mt-11  max-w-full">
+            <h1 class="text-4xl text-[#883000] font-sans font-bold">
+                Choose Your Plan
+            </h1>
+        </div>
+
+        <div class="mt-8 flex justify-center  items-center md:flex-row 
+                    md:space-x-12 flex-col md:space-y-0 space-y-11 ">
+            <!-- Monthly Plan -->
+            <div class="bg-[#F9EFE5] md:max-w-lg w-full p-8 rounded-lg shadow-md
+                        border-solid  border-8  border-[#EFD9C5]">
+                <h2 class="text-lg font-sans font-bold text-black">Monthly Plan</h2>
+                <p class="text-4xl font-sans  font-bold text-[#883000] mt-4">RM299<span class="text-xl font-medium">/month</span></p>
+                <p class="mt-4 font-sans  text-[#883000]">1 Coffee every day</p>
+                <p class="mt-1 font-sans  text-[#883000]">Save RM 211+/month on 30 coffees</p>
+            </div>
+
+            <!-- Pay-As-You-Go -->
+            <div class="bg-[#F9EFE5] p-8 md:max-w-lg w-full rounded-lg shadow-md">
+                <h2 class="text-lg font-sans font-bold text-black">Pay-As-You-Go</h2>
+                <p class="text-4xl font-sans  font-bold text-[#883000] mt-4">RM17+<span class="text-xl font-medium">/coffee</span></p>
+                <p class="mt-4 font-sans  text-[#883000]">Suitable for occasional coffee drinkers</p>
+                <p class="mt-1 font-sans  text-[#883000]">No savings; pay full price</p>
+            </div>
+        </div>
+
+        <div class="flex justify-center mt-8">
+            <button class="bg-[#883000] text-white px-6 py-3 rounded-lg text-lg ">
+                Subscribe Now
+            </button>
+        </div>
+    </div>
+
+
+   <!-- Store section -->
+   <div id="pricing" class="p-10 bg-[#F9EDE1]">
+        <div class="flex items-center justify-center flex-col p-4  max-w-full">
+            <h1 class="text-4xl text-[#883000] max-w-xs text-center font-sans font-bold">
+                Our Cafés in
+                Kuala Lumpur
+            </h1>
+
+            <div class="flex flex-row justify-center mt-16 max-w-screen-md
+            items-center sm:space-x-10 space-x-2 bg-white drop-shadow-2xl md:p-0 md:pl-5  p-5 md:rounded-none rounded-md">
+    <div class="grid grid-cols-1 md:grid-cols-1 md:pl-4
+                gap-4 md:max-w-lg max-w-xs sm:max-w-sm">
+        <div>
+            <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-2 sm:text-start text-center"> 
+                No 50, Jalan-jalan</h1>
+            
+            <p class="text-[#883000] font-sans sm:text-start text-center">
+                Taman Placeholder,
+                52445 Kuala Lumpur,
+                Malaysia</p>
+        </div>
+
+        <div>
+            <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-2 sm:text-start text-center"> 
+                Bangunan TY, Bangso</h1>
+            
+                <p class="text-[#883000] font-sans sm:text-start text-center">
+                    Taman Placeholder,
+                    55100 Kuala Lumpur,
+                    Malaysia</p>
+        </div>
+
+        <div>
+            <h1 class="mt-3 font-sans font-extrabold text-lg text-[#883000] mb-2 sm:text-start text-center"> 
+                Merana Cita Rasa, Jalan AU90</h1>
+            
+                <p class="text-[#883000] font-sans sm:text-start text-center">
+                    Taman Placeholder,
+                    53300 Kuala Lumpur,
+                    Malaysia</p>
+        </div>
+
+        <div>
+            <div class="flex-grow"></div>
+            
+            <p class="text-[#883000] font-sans 
+            sm:text-start text-center underline underline-offset-4">
+                More store opening soon!</p>
+        </div>
+    </div>
+    <div class="flex-grow"></div>
+    <img class="max-w-72 md:block hidden" 
+     src="./assets/images/cup-coffee-glass-counter-bakery.jpg" alt="">
+</div>
+
+
+        </div>  
+    </div>
+
+
+    <!-- Footer -->
+    <div class="flex justify-center items-center w-full h-16">
+        <p class="text-black font-sans">
+            Concept, Design & Develop by <span class="text-[#883000]">Mohamad Nur Syazwan</span></p>
+
+    </div>
+
+    <script>
+        const navButton = document.getElementById('nav-button');
+       const menu = document.getElementById('navbar-default');
+       
+
+       navButton.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+          
+        });
+        
+    </script>
+</body>
+</html>

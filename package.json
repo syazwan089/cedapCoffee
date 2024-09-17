@@ -1,0 +1,17 @@
+{
+  "name": "cedapcoffee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/style.css",
+    "watch": "tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  }
+}
